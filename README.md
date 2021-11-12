@@ -1,9 +1,10 @@
 # ReactJS Starter Template
 
-An empty starter template featuring:
+An empty web app starter template featuring:
 
-- Routing for public vs logged-in routes using React Router v6
-- Internationalisation using React i18next
+- React JS (https://reactjs.org/)
+- Routing for public vs logged-in routes using React Router v6 (https://reactrouter.com/)
+- Internationalisation using React i18next (https://react.i18next.com/)
 
 ## Installation
 
@@ -31,3 +32,10 @@ This template only uses a mock authentication, so you can enter any email to log
 ![logged-in](./screenshot-logged-in.png)
 
 If user types in an invalid route, React Router will recognise it as a 404.
+
+## Next Step
+
+If you want to connect the login to a real authentication, then you need to modify the Login.js by replacing the fake auth with your choice of auth system.  The Login.js is a slimmed down version of what I use to authenticate user using Supabase (https://supabase.io/).
+
+Cheers,
+SH
